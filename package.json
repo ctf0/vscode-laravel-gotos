@@ -1,0 +1,46 @@
+{
+    "name": "vscode-laravel-gotos",
+    "displayName": "Laravel GoTos",
+    "description": "a collection of laravel go-to extensions for smoother support",
+    "version": "0.0.1",
+    "publisher": "ctf0",
+    "author": "ctf0",
+    "repository": "https://github.com/ctf0/vscode-laravel-gotos",
+    "icon": "logo.png",
+    "engines": {
+        "vscode": "^1.68.0"
+    },
+    "categories": [
+        "Extension Packs"
+    ],
+    "keywords": [
+        "laravel",
+        "ctf0",
+        "goto",
+        "jump-to",
+        "reference",
+        "blade",
+        "controller",
+        "config",
+        "view",
+        "env",
+        "lang",
+        "path"
+    ],
+    "extensionDependencies": [
+        "ctf0.laravel-goto-controller",
+        "ctf0.laravel-goto-config",
+        "ctf0.laravel-goto-view",
+        "ctf0.laravel-goto-env",
+        "ctf0.laravel-goto-lang",
+        "ctf0.laravel-goto-path"
+    ],
+    "extensionPack": [
+        "ctf0.laravel-goto-controller",
+        "ctf0.laravel-goto-config",
+        "ctf0.laravel-goto-view",
+        "ctf0.laravel-goto-env",
+        "ctf0.laravel-goto-lang",
+        "ctf0.laravel-goto-path"
+    ]
+}
